@@ -1,15 +1,138 @@
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
+<div
+  class="max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 px-4 lg:mx-0 justify-center items-center flex flex-col"
+>
+  <div>
+    <div class="text-center">
+      <img
+        src="/static/img/tommy.jpg"
+        class="rounded-full w-32 mb-4 mx-auto"
+        alt="Avatar"
+      />
+      <h5 class="text-xl font-medium leading-tight mb-2">Tommy Helgersson</h5>
+      <p class="text-gray-500">Finsnickare</p>
+    </div>
+  </div>
+  <div class="col-span-2 px-4">
+    <div>
+      <p class="pt-0">
+        Hej jag heter Tommy och jag snickrar mycket. Hej jag heter Tommy och jag
+        snickrar mycket. Hej jag heter Tommy och jag snickrar mycket. Hej jag
+        heter Tommy och jag snickrar mycket
+      </p>
+    </div>
+  </div>
+  <div>
+    <a href="https://www.youtube.com/@tommyshantverk8951" target="_blank">
+      <div class="max-w-sm bg-gray-700 rounded-lg shadow-md">
+        <img class="rounded-t-lg" src="/static/img/ytt.jpg" alt="" />
 
-    {% if quicklinks.links %}
+        <div class="p-5">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Youtube
+          </h5>
 
-        {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
-                <h3>{{item.title}}
-                    →</h3>
-                <p>{{item.desc}}</p>
-            </a>
-        {% endfor %}
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Här kan ni se filmer där jag skapar olika möbler.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Klicka här
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a href="#">
+      <div class="max-w-sm bg-gray-700 rounded-lg shadow-md">
+        <img class="rounded-t-lg" src="/static/img/igt.jpg" alt="" />
 
-    {% endif %}
+        <div class="p-5">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Instagram
+          </h5>
 
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Här kommer bilder/videoklipp upp på alla projekt.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Klicka här
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div>
+    <a href="#">
+      <div class="max-w-sm bg-gray-700 rounded-lg shadow-md">
+        <img class="rounded-t-lg" src="/static/img/ft.jpg" alt="" />
+
+        <div class="p-5">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Facebook
+          </h5>
+
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Här kan ni se blandat från Youtube/IG eller kontakta mig.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Klicka här
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
